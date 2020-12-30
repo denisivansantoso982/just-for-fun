@@ -15,7 +15,7 @@ class LandingPage extends Component {
       var response  = await axios({
         method: 'GET',
         baseURL: 'https://jsonplaceholder.typicode.com/posts',
-        timeout: 10000,
+        timeout: 60000,
         params: 1
       });
       console.log(response)
@@ -23,7 +23,7 @@ class LandingPage extends Component {
         loading: false
       });
     } catch (error) {
-      console.log(error);
+      alert(error.message);
     }
   }
 

@@ -26,7 +26,7 @@ class Home extends Component {
         loading: false
       });
     } catch (error) {
-      console.log(error);
+      alert(error.message);
     }
   }
 
