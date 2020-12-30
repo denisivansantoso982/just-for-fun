@@ -12,11 +12,11 @@ class App extends Component {
       <Router>
         <Header />
         <Switch>
-          <Route exact path="/">
-            <Redirect from="/" to="/home" />
+          <Route exact path="just-for-fun/">
+            <Redirect from="just-for-fun/" to="just-for-fun/home" />
           </Route>
-          <Route path="/home" component={Home} />
-          <Route path="/landingPage" component={LandingPage} />
+          <Route path="just-for-fun/home" component={Home} />
+          <Route path="just-for-fun/landingPage" component={LandingPage} />
           <Route component={NotFound} />
         </Switch>
       </Router>
