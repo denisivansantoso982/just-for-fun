@@ -16,7 +16,7 @@ class Home extends Component {
       var response = await axios({
         method: 'GET',
         baseURL: 'https://jsonplaceholder.typicode.com/photos',
-        timeout: 10000
+        timeout: 60000
       });
       for (var i=0; i<response.data.length; i++) {
         console.log(response.data[i]);
