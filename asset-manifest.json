@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/just-for-fun/static/css/main.6e76002b.chunk.css",
-    "main.js": "/just-for-fun/static/js/main.9e889980.chunk.js",
-    "main.js.map": "/just-for-fun/static/js/main.9e889980.chunk.js.map",
+    "main.js": "/just-for-fun/static/js/main.ce40bcf0.chunk.js",
+    "main.js.map": "/just-for-fun/static/js/main.ce40bcf0.chunk.js.map",
     "runtime-main.js": "/just-for-fun/static/js/runtime-main.43071ade.js",
     "runtime-main.js.map": "/just-for-fun/static/js/runtime-main.43071ade.js.map",
     "static/js/2.1af4ff13.chunk.js": "/just-for-fun/static/js/2.1af4ff13.chunk.js",
     "static/js/2.1af4ff13.chunk.js.map": "/just-for-fun/static/js/2.1af4ff13.chunk.js.map",
     "index.html": "/just-for-fun/index.html",
-    "precache-manifest.10b6f1544fb124c9620be112c85a882a.js": "/just-for-fun/precache-manifest.10b6f1544fb124c9620be112c85a882a.js",
+    "precache-manifest.2a7e8cce8c6f9f5b41cb4680137b6b2a.js": "/just-for-fun/precache-manifest.2a7e8cce8c6f9f5b41cb4680137b6b2a.js",
     "service-worker.js": "/just-for-fun/service-worker.js",
     "static/css/main.6e76002b.chunk.css.map": "/just-for-fun/static/css/main.6e76002b.chunk.css.map",
     "static/js/2.1af4ff13.chunk.js.LICENSE.txt": "/just-for-fun/static/js/2.1af4ff13.chunk.js.LICENSE.txt"
@@ -17,6 +17,6 @@
     "static/js/runtime-main.43071ade.js",
     "static/js/2.1af4ff13.chunk.js",
     "static/css/main.6e76002b.chunk.css",
-    "static/js/main.9e889980.chunk.js"
+    "static/js/main.ce40bcf0.chunk.js"
   ]
 }
