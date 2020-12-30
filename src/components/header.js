@@ -6,7 +6,7 @@ class Header extends Component{
     return(
       <nav>
         <ul>
-          <li><Link className="App-link" to="/">Home</Link></li>
+          <li><Link className="App-link" to="/home">Home</Link></li>
           <li><Link className="App-link" to="/landingPage">Landing Page</Link></li>
         </ul>
       </nav>

@@ -12,10 +12,10 @@ class App extends Component {
       <Router>
         <Header />
         <Switch>
-          {/* <Route exact path="/">
+          <Route exact path="/">
             <Redirect from="/" to="/home" />
-          </Route> */}
-          <Route path="/" component={Home} />
+          </Route>
+          <Route path="/home" component={Home} />
           <Route path="/landingPage" component={LandingPage} />
           <Route component={NotFound} />
         </Switch>
