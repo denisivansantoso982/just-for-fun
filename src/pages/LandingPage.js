@@ -6,6 +6,7 @@ class LandingPage extends Component {
   constructor() {
     super();
     this.state = {
+      data: [],
       loading: true
     }
   }
@@ -14,11 +15,13 @@ class LandingPage extends Component {
     try {
       var response  = await axios({
         method: 'GET',
-        baseURL: 'https://jsonplaceholder.typicode.com/posts',
+        baseURL: 'https://jsonplaceholder.typicode.com/photos',
         timeout: 60000,
         params: 1
       });
-      console.log(response)
+      for (var i=0; i<response.data.length; i++) {
+        this.state.data.push(response.data[i]);
+      }
       this.setState({
         loading: false
       });
@@ -28,11 +31,12 @@ class LandingPage extends Component {
   }
 
   render() {
-    var {loading} = this.state;
+    var {loading, data} = this.state;
     return (
       loading ? <Splash/>
       : <div className="App">
         <h1>Landing Page</h1>
+        <p>Data length : {data.length}</p>
       </div>
     );
   }

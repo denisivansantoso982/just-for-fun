@@ -19,7 +19,6 @@ class Home extends Component {
         timeout: 60000
       });
       for (var i=0; i<response.data.length; i++) {
-        console.log(response.data[i]);
         this.state.data.push(response.data[i]);
       }
       this.setState({
@@ -33,15 +32,15 @@ class Home extends Component {
   render() {
     var {loading, data} = this.state;
     var datas = data.length > 0 && data.map((item, index) => (
-      <div className="list-data" key={item.id} onClick={() => this.setState({status: item.title}) }>
+      <div className="list-data" key={item.id}>
         <p className="index">{++index}.</p>
         <p className="title">{item.title}</p>
       </div>
     ));
     return (
       loading ? <Splash/>
-      : <div className="App">
-        <h1>Home Page</h1>
+      : <div>
+        <h1 className="App">Home Page</h1>
         {
           datas
         }
